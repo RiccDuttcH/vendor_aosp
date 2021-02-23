@@ -33,10 +33,10 @@ CUSTOM_PLATFORM_VERSION := 11.0
 TARGET_PRODUCT_SHORT := $(subst aosp_,,$(CUSTOM_BUILD))
 
 CUSTOM_VERSION := NEZUKO_$(CUSTOM_BUILD)-$(CUSTOM_PLATFORM_VERSION)-$(CUSTOM_BUILD_DATE)-BETA-$(CUSTOM_BUILD_TYPE)
-CUSTOM_VERSION_PROP := eleven
+CUSTOM_VERSION_PROP := Eleven
 
 ADDITIONAL_BUILD_PROPERTIES += \
-    org.nezuko.version=$(CUSTOM_VERSION_PROP) \
+    org.nezuko.version=$(NEZUKO_VERSION) \
     org.pixelexperience.version=$(CUSTOM_VERSION_PROP) \
     org.pixelexperience.version.display=$(CUSTOM_VERSION) \
     org.pixelexperience.build_date=$(CUSTOM_BUILD_DATE) \
