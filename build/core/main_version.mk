@@ -17,7 +17,7 @@ endif
 
 # Branding
 NEZUKO_MAINTAINER ?= Unknown
-NEZUKO_VERSION := 1.0
+NEZUKO_VERSION := 1.1
 CUSTOM_BUILD_TYPE ?= UNOFFICIAL
 
 CUSTOM_DATE_YEAR := $(shell date -u +%Y)
