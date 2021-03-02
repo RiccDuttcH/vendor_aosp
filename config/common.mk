@@ -137,7 +137,8 @@ PRODUCT_PACKAGES += \
     StitchImageService \
     ThemePicker \
     NezukoThemesStub \
-    Launcher3
+    Launcher3 \
+    OPScreenRecord
 
 # TouchGestures
 PRODUCT_PACKAGES += \
