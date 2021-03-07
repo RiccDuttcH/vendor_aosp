@@ -19,6 +19,7 @@ endif
 NEZUKO_MAINTAINER ?= Unknown
 NEZUKO_VERSION := 1.1
 CUSTOM_BUILD_TYPE ?= UNOFFICIAL
+NEZUKO_DONATE ?= Unknown
 
 CUSTOM_DATE_YEAR := $(shell date -u +%Y)
 CUSTOM_DATE_MONTH := $(shell date -u +%m)
@@ -42,5 +43,6 @@ ADDITIONAL_BUILD_PROPERTIES += \
     org.pixelexperience.build_date=$(CUSTOM_BUILD_DATE) \
     org.pixelexperience.build_date_utc=$(CUSTOM_BUILD_DATE_UTC) \
     org.nezuko.build_maintainer=$(NEZUKO_MAINTAINER) \
+    org.nezuko.donate=$(NEZUKO_DONATE) \
     org.nezuko.version.prop=$(CUSTOM_PLATFORM_VERSION) \
     org.pixelexperience.build_type=$(CUSTOM_BUILD_TYPE)
